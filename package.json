@@ -1,0 +1,33 @@
+{
+  "name": "platform-diagnosis-workbench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BellaYeoh/platform-diagnosis-workbench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/BellaYeoh/platform-diagnosis-workbench/issues"
+  },
+  "homepage": "https://github.com/BellaYeoh/platform-diagnosis-workbench#readme",
+  "dependencies": {
+    "@langchain/core": "^1.4.2",
+    "@langchain/openai": "^1.8.4",
+    "dotenv": "^18.0.10",
+    "langchain": "^1.6.7",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
