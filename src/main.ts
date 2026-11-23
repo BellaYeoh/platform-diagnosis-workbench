@@ -6,8 +6,8 @@ import {
   ToolMessage,
   type BaseMessage,
 } from "@langchain/core/messages";
-import { model } from "./model";
-import { investigate } from "./runner";
+import { model } from "./model.js";
+import { investigate } from "./runner.js";
 
 const input =
   process.argv[2] ?? "dynamic-form 页面中 nestedAddress 字段不显示，请检查配置";

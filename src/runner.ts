@@ -5,8 +5,8 @@ import {
   type BaseMessage, // 三种消息的共同父类型（只导类型，不导运行时值）
 } from "@langchain/core/messages";
 
-import { model } from "./model";
-import { getPageConfig } from "./tools";
+import { model } from "./model.js";
+import { getPageConfig } from "./tools.js";
 
 /**
  * 先理解这个概念：对话就是消息数组。你发给模型的永远是"到目前为止的全部消息"，模型据此生成下一条。三种角色：
