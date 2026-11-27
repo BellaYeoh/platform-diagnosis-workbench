@@ -77,7 +77,7 @@ export async function investigate(input: string) {
         args: call.args,
       });
 
-      console.log("[tool_execution_stated]", call.id);
+      console.log("[tool_execution_started]", call.id);
 
       // 真正执行发生在这里，且必须经过执行器
       const result = await executeTool({
